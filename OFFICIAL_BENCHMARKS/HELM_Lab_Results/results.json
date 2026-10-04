@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "L_PALRLHF",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "huggingface/trl",
+  "commit": "48f7f0f0a3dc",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project L_PALRLHF provides 552 tracked files across ['Python'] with 117528 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5288,
+        "latency_ms": 49.5
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5288,
+        "latency_ms": 40.57
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5288,
+        "latency_ms": 45.01
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 45.03,
+    "status": "PASS",
+    "language_diversity": 1,
+    "primary_language": "Python",
+    "fairness_keywords_found": true
+  }
+}

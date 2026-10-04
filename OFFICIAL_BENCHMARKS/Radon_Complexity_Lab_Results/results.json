@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_PALRLHF",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 4.7
+    },
+    "complexity_grade": "A",
+    "complexity_score": 4.7,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\add_copyrights.py\n    F 37:0 get_tracked_python_files - A (4)\n    F 73:0 main - A (4)\n    F 52:0 check_and_add_copyright - A (3)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_harmony_dataset.py\n    F 49:0 main - A (4)\n    C 22:0 ScriptArguments - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_toolcall_dataset.py\n    F 50:0 main - A (3)\n    C 23:0 ScriptArguments - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_zen_dataset.py\n    F 49:0 main - C (13)\n    C 22:0 ScriptArguments - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_zen_image_dataset.py\n    F 53:0 main - C (13)\n    C 26:0 ScriptArguments - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_zen_multi_image_dataset.py\n    F 53:0 main - E (36)\n    C 26:0 ScriptArguments - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\log_reports.py\n    F 27:0 process_log_file - B (8)\n    F 56:0 main - B (7)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\tests\\conftest.py\n    F 44:0 pytest_runtest_makereport - B (7)\n    F 96:0 apply_model_revisions - A (4)\n    F 180:0 force_use_cpu_without_accelerator - A (",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\add_copyrights.py - A (78.24)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_harmony_dataset.py - A (80.35)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_toolcall_dataset.py - A (83.74)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\UPSTREAM\\scripts\\generate_zen_dataset.py - A (64.77)\nE"
+  }
+}

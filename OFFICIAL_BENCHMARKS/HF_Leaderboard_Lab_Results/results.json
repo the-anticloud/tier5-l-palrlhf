@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_PALRLHF",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "huggingface/trl",
+  "commit": "48f7f0f0a3dc",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 45.32,
+      "min": 39.49,
+      "max": 49.56,
+      "all": [
+        49.56,
+        47.54,
+        43.97,
+        46.05,
+        39.49
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_PALRLHF (huggingface/trl) \u2014 552 files, 117528 source lines, licence Apache-2.0, primary language ['Python']",
+      "token_count": 40,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "pal",
+        "##rl",
+        "##h",
+        "##f",
+        "(",
+        "hugging",
+        "##face",
+        "/",
+        "tr",
+        "##l",
+        ")",
+        "\u2014",
+        "55",
+        "##2",
+        "files",
+        ",",
+        "117"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5888,
+      "classification_latency_ms": 81.47,
+      "status": "PASS"
+    }
+  }
+}

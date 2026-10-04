@@ -1,0 +1,42 @@
+{
+  "benchmark": "GDPR_Lab_Results",
+  "project": "L_PALRLHF",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_PALRLHF",
+    "slug": "huggingface/trl",
+    "commit": "48f7f0f0a3dc",
+    "tracked_files": 552,
+    "source_lines": 117528,
+    "licence": "Apache-2.0",
+    "size_mb": 8.8
+  },
+  "inputs_hash": "444f85391c10eb6d45aa2c4397d40bfa7e611497a0936d37d13f27c82a11d39c",
+  "outputs": {
+    "results_file": "TIER_5_WORLD_NEURO_EMBODIED\\L_PALRLHF\\OFFICIAL_BENCHMARKS\\GDPR_Lab_Results\\results.json",
+    "results_sha256": "f5ca261093b358ff232130008fdf8c286b2014b01d09bc1db5f0d959adb7a6a4"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/GDPR_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}
